@@ -21,5 +21,5 @@ document.write('<table>');
 document.write('<tr><th>Suma</th><th>Apariciones</th></tr>');
 resultados.forEach(fila => {
   document.write(`<tr><td>${fila[0]}</td><td>${fila[1]}</td></tr>`);
-});
+}); 
 document.write('</table>');
